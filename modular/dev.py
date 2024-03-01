@@ -49,7 +49,7 @@ async def _(c, m):
         text=True,
     )
 
-    char = "Mix-Userbot#" if os.getuid() == 0 else "Mix-Userbot"
+    char = "Dan-Userbot#" if os.getuid() == 0 else "Dan-Userbot"
     text = f"{char} <code>{cmd_text}</code>\n\n"
 
     try:
