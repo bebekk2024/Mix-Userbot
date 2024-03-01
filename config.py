@@ -15,7 +15,7 @@ heroku_api = getenv("heroku_api")
 heroku_app_name = getenv("heroku_app_name")
 upstream_repo = getenv(
     "upstream_repo",
-    "https://github.com/naya1503/Mix-Userbot",
+    "https://github.com/bebekk2024/Mix-Userbot",
 )
 upstream_branch = getenv("upstream_branch", "dev")
 git_token = getenv("git_token", None)
