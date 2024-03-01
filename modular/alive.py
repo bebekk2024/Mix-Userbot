@@ -55,7 +55,7 @@ async def _(c, iq):
     else:
         pmper = "disable"
     txt = f"""
-<b>Mix-Userbot</b>
+<b>Dan-Userbot</b>
     <b>status:</b> {stutas}
       <b>dc_id:</b> {user.me.dc_id}
       <b>ping_dc:</b> {str(pink).replace('.', ',')} ms
@@ -64,7 +64,7 @@ async def _(c, iq):
       <b>peer_groups:</b> {len(ape)}
       <b>bot_uptime:</b> {upnya}
 """
-    bo_ol = [[InlineKeyboardButton(text="Support", url="t.me/kynansupport")]]
+    bo_ol = [[InlineKeyboardButton(text="Support", url="t.me/Disney_storeDan")]]
     cekpic = udB.get_var(user.me.id, "ALIVEPIC")
     if not cekpic:
         duar = [
