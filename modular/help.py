@@ -27,7 +27,7 @@ async def _(c: user, m):
             prefix = await c.get_prefix(c.me.id)
             await m.reply(
                 CMD_HELP[c.get_arg(m)].__help__.format(next((p) for p in prefix))
-                + f"\n<b>© Mix-Userbot - @KynanSupport</b>",
+                + f"\n<b>© Dan-Userbot - @Disney_storeDan</b>",
                 quote=True,
             )
         else:
@@ -71,7 +71,7 @@ async def _(c, cq):
         text = f"<b>{CMD_HELP[module].__help__}</b>\n".format(next((p) for p in prefix))
         button = [[InlineKeyboardButton("≪", callback_data="help_back")]]
         await cq.edit_message_text(
-            text=text + f"\n<b>© Mix-Userbot - @KynanSupport</b>",
+            text=text + f"\n<b>© Dan-Userbot - @Disney_storeDan</b>",
             reply_markup=InlineKeyboardMarkup(button),
             disable_web_page_preview=True,
         )
