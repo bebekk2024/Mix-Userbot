@@ -55,7 +55,7 @@ async def _(c, m):
         except Exception:
             return await proses.edit(cgr("sangmat_2").format(em.gagal))
 
-    bo = ["sangmata_bot", "sangmata_beta_bot"]
+    bo = ["sangmata_beta_bot", "sangmata_beta_bot"]
     sg = random.choice(bo)
 
     try:
